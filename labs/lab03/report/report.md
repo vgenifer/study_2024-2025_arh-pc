@@ -15,8 +15,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -57,9 +55,6 @@ biblatexoptions:
 figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
 ## Misc options
 indent: true
 header-includes:
@@ -76,21 +71,24 @@ header-includes:
 # Выполнение лабораторной работы
 Перешла в директорию с проектом, и обновила изменения с основново репозитория (рис. [-@fig:001]).
 
-![Название gjvtyzqw](image/1.png){#fig:001 width=70%}
+![Переход в директорий](image/1.png){#fig:001 width=70%}
 
 Перешла в папку отчета 3 лабараторной (рис. [-@fig:002]).
 
-![Название рисунка](image/2.png){#fig:002 width=70%}
+![Переход в папку отчета](image/2.png){#fig:002 width=70%}
 
-Выполнила команду make (рис. [-@fig:002]).
+Выполнила команду make (рис. [-@fig:003]).
 
-![Название рисунка](image/2.png){#fig:002 width=70%}
-Удаляю полученный файлы с использованием make clean (рис. [-@fig:003]).
+![Выполнение команды make](image/3.png){#fig:003 width=70%}
 
-![Название рисунка](image/3.png){#fig:003 width=70%}
+Удаляю полученный файлы с использованием make clean (рис. [-@fig:005]).
+
+![Выполнение команды make clean](image/5.png){#fig:005 width=70%}
+
 Откройткрою файл report.md c помощью текстового редактора gedit (рис. [-@fig:004]).
 
-![Название рисунка](image/4.png){#fig:004 width=70%}
+![Выполнение конманды gedit](image/4.png){#fig:004 width=70%}
+
 # Выводы
 Выполнив данную лабораторную работу я обрела теоретические и практические знания в использовании разметки Markdown. При помощи консоли я научилась компилировать отчет с использованием Makefile.
 Здесь кратко описываются итоги проделанной работы.
